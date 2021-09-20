@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khang Thịnh Land</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="header__navbar">
+                <div class="grid">
+                    <nav class="header__navbar-top">
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                                Vào cửa hàng trên ứng dụng Zalo
+                                <div class="header__qr">
+                                    <img src="./assets/img/QR-zalo2.png" alt="QR code" class="header__qr-img">
+                                    <div class="header__qr-apps">
+                                        <a href="" class="header__qr-download">
+                                            <img src="./assets/img/appstore.png" alt="" class="header__qr-download-img">
+                                        </a>
+                                        <a href="" class="header__qr-download">
+                                            <img src="./assets/img/googlePlay.png" alt="" class="header__qr-download-img">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header__navbar-item">
+                                <span class="header__navbar-title--no-pointer">Kết nối</span>
+                                <a href="" class="header__navbar-icon-link">
+                                    <i class="fab fa-facebook-f header__navbar-icon"></i>
+                                </a>
+                                <a href="" class="header__navbar-icon-link">
+                                    <i class="header__navbar-icon fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item">
+                                <input type="text" class="header__navbar-item-input" placeholder="Tìm Kiếm...">
+                                <a href="" class="header__navbar-icon-btn">
+                                    <i class="header__navbar-icon-search fas fa-search"></i>
+                                </a>
+                            </li>
+                            <li id="register" class="header__navbar-item header__navbar-item--bold header__navbar-item--separate">Đăng kí</li>
+                            <li id="login" class="header__navbar-item header__navbar-item--bold">Đăng nhập</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="header__inner">
+                <div class="grid">
+                    <a href="" class="header__inner-logo">
+                        <img src="./assets/img/IMG_logo.png" alt="" class="header__inner-logo-img">
+                        <ul class="header__inner-slogan">
+                            <li class="header__inner-slogan-name">KHANG THỊNH LAND</li>
+                            <li class="header__inner-slogan-text">TIÊN PHONG PHÁT TRIỂN - VỮNG BƯỚC THÀNH CÔNG</li>
+                        </ul>
+                    </a>
+                    <div class="header__inner-info">
+                        <div class="header__inner-info-img">
+                            <img src="./assets/img/header_icon-location.png" alt="địa điểm" class="header__inner-icon">
+                            <ul class="header__inner-form">
+                                <li class="header__inner-form-top">Văn phòng chính</li>
+                                <li class="header__inner-form-bottom">70A4 VCN Phước Hải, Nha Trang</li>
+                            </ul>
+                        </div>
+                        <div class="header__inner-info-img">
+                            <img src="./assets/img/header_icon-time.png" alt="Time" class="header__inner-icon">
+                            <ul class="header__inner-form">
+                                <li class="header__inner-form-top">Thứ 2 - Thứ 7</li>
+                                <li class="header__inner-form-bottom">08:00 - 22:00</li>
+                            </ul>
+                        </div>
+                        <div class="header__inner-info-img">
+                            <img src="./assets/img/header_icon_tel.png" alt="Hotline" class="header__inner-icon">
+                            <ul class="header__inner-form">
+                                <li class="header__inner-form-top">Hotline hỗ trợ</li>
+                                <li class="header__inner-form-bottom">
+                                    <a href="">0987006706</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="grid">
+                    <ul id="header-jv" class="header__bottom-form">
+                        <li class="header__bottom-form-list">
+                            <a href="#" class="header__bottom-form-link header__bottom-form--primary">Trang chủ</a>
+                        </li>
+                        <li class="header__bottom-form-list">
+                            <a href="#" class="header__bottom-form-link">Tin tức</a>
+                        </li>
+                        <li class="header__bottom-form-list header__bottom--form-hover-product">
+                            <a href="#" class="header__bottom-form-link">Sản phẩm
+                                <i class="header__button-icon fas fa-angle-down"></i>
+                                <i class="header__mobile-icon fas fa-angle-right"></i>
+                            </a>
+                            <div class="header__bottom-product">
+                                <ul class="header__bottom-active-form">
+                                    <li class="header__bottom-active-list">
+                                        <a href="" class="header__bottom-active-link">Nhà - Đất TTTP</a>
+                                    </li>
+                                    <li class="header__bottom-active-list">
+                                        <a href="" class="header__bottom-active-link">Nhà - Đất Xã Huyện</a>
+                                    </li>
+                                    <li class="header__bottom-active-list">
+                                        <a href="" class="header__bottom-active-link">Đất nền Dự Án</a>
+                                    </li>
+                                    <li class="header__bottom-active-list">
+                                        <a href="" class="header__bottom-active-link">Căn Hộ Chung Cư</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header__bottom-form-list header__bottom--form-hover-investor">
+                            <a href="#" class="header__bottom-form-link">Chủ đầu tư
+                                <i class="header__button-icon fas fa-angle-down"></i>
+                                <i class="header__mobile-icon fas fa-angle-right"></i>
+                            </a>
+                            <div class="header__bottom-investor">
+                                <ul class="header__bottom-active-form">
+                                    <li class="header__bottom-active-list">
+                                        <a href="" class="header__bottom-active-link">Cty Cổ Phần Đầu Tư VCN</a>
+                                    </li>
+                                    <li class="header__bottom-active-list">
+                                        <a href="" class="header__bottom-active-link">Cty CP BDS Hà Quang</a>
+                                    </li>
+                                    <li class="header__bottom-active-list">
+                                        <a href="" class="header__bottom-active-link">Cty Cổ Phần Tập Đoàn Phúc Sơn</a>
+                                    </li>
+                                    <li class="header__bottom-active-list">
+                                        <a href="" class="header__bottom-active-link">Cty Cổ Phần Vega City</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header__bottom-form-list header__bottom--form-hover-direction">
+                            <a href="#" class="header__bottom-form-link">Hướng nhà
+                                <i class="header__button-icon fas fa-angle-down"></i>
+                                <i class="header__mobile-icon fas fa-angle-right"></i>
+                            </a>
+                            <div class="header__bottom-direction">
+                                <ul class="header__bottom-active-form">
+                                    <li class="header__bottom-active-list">
+                                        <a href="" class="header__bottom-active-link">Đông Tứ Trạch</a>
+                                    </li>
+                                    <li class="header__bottom-active-list">
+                                        <a href="" class="header__bottom-active-link">Tây Tứ Trạch</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header__bottom-form-list header__bottom--form-hover-location">
+                            <a href="#" class="header__bottom-form-link">Địa điểm
+                                <i class="header__button-icon fas fa-angle-down"></i>
+                                <i class="header__mobile-icon fas fa-angle-right"></i>
+                            </a>
+                            <div class="header__bottom-location">
+                                <ul class="header__bottom-active-form">
+                                    <li class="header__bottom-active-list">
+                                        <a href="" class="header__bottom-active-link">Nha Trang</a>
+                                    </li>
+                                    <li class="header__bottom-active-list">
+                                        <a href="" class="header__bottom-active-link">Cam Ranh</a>
+                                    </li>
+                                    <li class="header__bottom-active-list">
+                                        <a href="" class="header__bottom-active-link">Diên Khánh</a>
+                                    </li>
+                                    <li class="header__bottom-active-list">
+                                        <a href="" class="header__bottom-active-link">Ninh Hòa</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <div id="mobile-menu" class="header__bottom-icon"><i class="fas fa-list"></i></div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="container">
+            <div class="banner">
+                <div class="banner-img"></div>
+                <div class="grid">
+                    <div class="banner-col-6">
+                        <h2 class="banner-top">KHANG THỊNH LAND</h2>
+                        <h3 class="banner-body">GIÚP BẠN ĐẦU TƯ LÂU DÀI</h3>
+                        <p class="banner-bottom">Bằng khả năng của mình, 
+                            chúng tôi sẽ giúp bạn tìm được căn nhà đẹp nhất với chi phí hợp lý nhất.
+                        </p>
+                        <a href="" class="btn btn--primary banner-btn">Xem Nhà</a>
+                    </div>
+                    <div class="banner-col-4">
+                        <ul class="banner__reg-advice">
+                            <li class="banner__reg-advice-title">Form đăng ký tư vấn</li>
+                            <li class="banner__reg-advice-info">Vui lòng nhập vào form dưới đây, 
+                                 mọi thông tin cá nhân của quý khách sẽ chỉ phục vụ việc liên lạc tư vấn, 
+                                 không sử dụng vào mục đích khác
+                            </li>
+                            <li class="banner__reg-advice-input">
+                                <input class="banner__reg-advice--has-input" type="text" placeholder="Họ và tên" required>
+                            </li>
+                            <li class="banner__reg-advice-input">
+                                <input class="banner__reg-advice--has-input" type="tel" placeholder="Số điện thoại" required>
+                            </li>
+                            <li class="banner__reg-advice-input boder-none">
+                                <input class="banner__reg-advice--has-input" type="email" placeholder="Email" required>
+                            </li>
+                            <li class="banner__reg-advice-btn">
+                                <a href="" class="banner__reg-advice--btn-link btn btn--primary">Đăng ký</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>  
+            </div>
+            <div class="content">
+                <div class="grid">
+                    <ul class="content__heading grid__full-width">
+                        <li class="content__heading-top">Sản phẩm mới nhất cho bạn</li>
+                        <li class="content__heading-bottom">Tổng hợp những sản phẩm hot nhất trên thị trường bất động sản hiện nay.
+                             Liên hệ hotline 
+                             <a href="" class="content__heading-bottom-link">0987006706</a> 
+                             để được hỗ trợ mua nhà nhanh nhất
+                        </li>
+                    </ul>
+                    <div class="e-flex">
+                        <div class="e-flex-item">
+                            <div class="e-flex-item-wrap transform-left">
+                                <div class="e-flex-image">
+                                    <a href="">
+                                        <img src="./assets/img/nha HQ1/1631151097889.JPG" style="width: 100%;" alt="">
+                                    </a>
+                                </div>
+                                <div class="e-flex-s">
+                                    <div class="e-flex-item-s">
+                                        <div class="e-flex-image-s">
+                                            <a href="">
+                                                <img src="./assets/img/nha HQ1/1631151097735.JPG" style="width: 100%;" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="e-flex-item-s">
+                                        <div class="e-flex-image-s">
+                                            <a href="">
+                                                <img src="./assets/img/nha HQ1/1631151098086.JPG" style="width: 100%;" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="e-flex-item-s">
+                                        <div class="e-flex-image-s">
+                                            <a href="">   
+                                                <img src="./assets/img/nha HQ1/1631151098246.JPG" style="width: 100%;" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="e-flex-content">
+                                    <div class="e-flex-title">
+                                        <h3> 
+                                            <a href="">Nhà mới xây HQ1 diện tích 75m</a>
+                                        </h3>
+                                        <span>bao gồm 4pn, 5wc, đường 13m, gần sông mát mẻ</span>
+                                        <span>Pháp lý HDMB, đã hoàn công, đang chờ sổ</span>
+                                    </div>
+                                    <div class="e-flex-time">
+                                        <span>Giá : 4.5tỷ (không thương lượng)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="e-flex-item">
+                            <div class="e-flex-item-wrap transform-left">
+                                <div class="e-flex-image">
+                                    <a href="">
+                                        <img src="./assets/img/nha HQ1/1631151097889.JPG" style="width: 100%;" alt="">
+                                    </a>
+                                </div>
+                                <div class="e-flex-s">
+                                    <div class="e-flex-item-s">
+                                        <div class="e-flex-image-s">
+                                            <a href="">
+                                                <img src="./assets/img/nha HQ1/1631151097735.JPG" style="width: 100%;" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="e-flex-item-s">
+                                        <div class="e-flex-image-s">
+                                            <a href="">
+                                                <img src="./assets/img/nha HQ1/1631151098086.JPG" style="width: 100%;" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="e-flex-item-s">
+                                        <div class="e-flex-image-s">
+                                            <a href="">   
+                                                <img src="./assets/img/nha HQ1/1631151098246.JPG" style="width: 100%;" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="e-flex-content">
+                                    <div class="e-flex-title">
+                                        <h3> 
+                                            <a href="">Nhà mới xây HQ1 diện tích 75m</a>
+                                        </h3>
+                                        <span>bao gồm 4pn, 5wc, đường 13m, gần sông mát mẻ</span>
+                                        <span>Pháp lý HDMB, đã hoàn công, đang chờ sổ</span>
+                                    </div>
+                                    <div class="e-flex-time">
+                                        <span>Giá : 4.5tỷ (không thương lượng)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="e-flex-item">
+                            <div class="e-flex-item-wrap transform-left">
+                                <div class="e-flex-image">
+                                    <a href="">
+                                        <img src="./assets/img/nha HQ1/1631151097889.JPG" style="width: 100%;" alt="">
+                                    </a>
+                                </div>
+                                <div class="e-flex-s">
+                                    <div class="e-flex-item-s">
+                                        <div class="e-flex-image-s">
+                                            <a href="">
+                                                <img src="./assets/img/nha HQ1/1631151097735.JPG" style="width: 100%;" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="e-flex-item-s">
+                                        <div class="e-flex-image-s">
+                                            <a href="">
+                                                <img src="./assets/img/nha HQ1/1631151098086.JPG" style="width: 100%;" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="e-flex-item-s">
+                                        <div class="e-flex-image-s">
+                                            <a href="">   
+                                                <img src="./assets/img/nha HQ1/1631151098246.JPG" style="width: 100%;" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="e-flex-content">
+                                    <div class="e-flex-title">
+                                        <h3> 
+                                            <a href="">Nhà mới xây HQ1 diện tích 75m</a>
+                                        </h3>
+                                        <span>bao gồm 4pn, 5wc, đường 13m, gần sông mát mẻ</span>
+                                        <span>Pháp lý HDMB, đã hoàn công, đang chờ sổ</span>
+                                    </div>
+                                    <div class="e-flex-time">
+                                        <span>Giá : 4.5tỷ (không thương lượng)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="e-flex-item">
+                            <div class="e-flex-item-wrap transform-left">
+                                <div class="e-flex-image">
+                                    <a href="">
+                                        <img src="./assets/img/nha HQ1/1631151097889.JPG" style="width: 100%;" alt="">
+                                    </a>
+                                </div>
+                                <div class="e-flex-s">
+                                    <div class="e-flex-item-s">
+                                        <div class="e-flex-image-s">
+                                            <a href="">
+                                                <img src="./assets/img/nha HQ1/1631151097735.JPG" style="width: 100%;" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="e-flex-item-s">
+                                        <div class="e-flex-image-s">
+                                            <a href="">
+                                                <img src="./assets/img/nha HQ1/1631151098086.JPG" style="width: 100%;" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="e-flex-item-s">
+                                        <div class="e-flex-image-s">
+                                            <a href="">   
+                                                <img src="./assets/img/nha HQ1/1631151098246.JPG" style="width: 100%;" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="e-flex-content">
+                                    <div class="e-flex-title">
+                                        <h3> 
+                                            <a href="">Nhà mới xây HQ1 diện tích 75m</a>
+                                        </h3>
+                                        <span>bao gồm 4pn, 5wc, đường 13m, gần sông mát mẻ</span>
+                                        <span>Pháp lý HDMB, đã hoàn công, đang chờ sổ</span>
+                                    </div>
+                                    <div class="e-flex-time">
+                                        <span>Giá : 4.5tỷ (không thương lượng)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="e-flex-item">
+                            <div class="e-flex-item-wrap transform-left">
+                                <div class="e-flex-image">
+                                    <a href="">
+                                        <img src="./assets/img/nha HQ1/1631151097889.JPG" style="width: 100%;" alt="">
+                                    </a>
+                                </div>
+                                <div class="e-flex-s">
+                                    <div class="e-flex-item-s">
+                                        <div class="e-flex-image-s">
+                                            <a href="">
+                                                <img src="./assets/img/nha HQ1/1631151097735.JPG" style="width: 100%;" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="e-flex-item-s">
+                                        <div class="e-flex-image-s">
+                                            <a href="">
+                                                <img src="./assets/img/nha HQ1/1631151098086.JPG" style="width: 100%;" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="e-flex-item-s">
+                                        <div class="e-flex-image-s">
+                                            <a href="">   
+                                                <img src="./assets/img/nha HQ1/1631151098246.JPG" style="width: 100%;" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="e-flex-content">
+                                    <div class="e-flex-title">
+                                        <h3> 
+                                            <a href="">Nhà mới xây HQ1 diện tích 75m</a>
+                                        </h3>
+                                        <span>bao gồm 4pn, 5wc, đường 13m, gần sông mát mẻ</span>
+                                        <span>Pháp lý HDMB, đã hoàn công, đang chờ sổ</span>
+                                    </div>
+                                    <div class="e-flex-time">
+                                        <span>Giá : 4.5tỷ (không thương lượng)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="e-flex-item">
+                            <div class="e-flex-item-wrap transform-left">
+                                <div class="e-flex-image">
+                                    <a href="">
+                                        <img src="./assets/img/nha HQ1/1631151097889.JPG" style="width: 100%;" alt="">
+                                    </a>
+                                </div>
+                                <div class="e-flex-s">
+                                    <div class="e-flex-item-s">
+                                        <div class="e-flex-image-s">
+                                            <a href="">
+                                                <img src="./assets/img/nha HQ1/1631151097735.JPG" style="width: 100%;" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="e-flex-item-s">
+                                        <div class="e-flex-image-s">
+                                            <a href="">
+                                                <img src="./assets/img/nha HQ1/1631151098086.JPG" style="width: 100%;" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="e-flex-item-s">
+                                        <div class="e-flex-image-s">
+                                            <a href="">   
+                                                <img src="./assets/img/nha HQ1/1631151098246.JPG" style="width: 100%;" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="e-flex-content">
+                                    <div class="e-flex-title">
+                                        <h3> 
+                                            <a href="">Nhà mới xây HQ1 diện tích 75m</a>
+                                        </h3>
+                                        <span>bao gồm 4pn, 5wc, đường 13m, gần sông mát mẻ</span>
+                                        <span>Pháp lý HDMB, đã hoàn công, đang chờ sổ</span>
+                                    </div>
+                                    <div class="e-flex-time">
+                                        <span>Giá : 4.5tỷ (không thương lượng)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="field">
+                <div class="grid">
+                    <div class="field-heading grid__full-width">
+                        <h2 class="field-title">LĨNH VỰC HOẠT ĐỘNG</h2>
+                        <p class="field-text">Lĩnh vực hoạt động chuyên nghiệp tích luỹ qua nhiều năm kinh nghiệm.</p>
+                    </div>
+                    <div class="e-flex">
+                        <div class="e-flex-item">
+                            <div class="field-icon">
+                                <span class="field-icon-circle"><i class="fas fa-receipt"></i></span>
+                                <h2 class="field-work">MÔI GIỚI BẤT ĐỘNG SẢN</h2>
+                            </div>
+                            <div class="field-info">
+                                
+                                <p>Dịch vụ môi giới và tư vấn bất động sản chuyên nghiệp của chúng tôi luôn thấu hiểu nhu cầu, 
+                                    lựa chọn của Quý Khách hàng có năng lực phù hợp nhất với mỗi loại đất bất động sản.</p>
+                            </div>
+                        </div>
+                        <div class="e-flex-item">
+                            <div class="field-icon">
+                                <span class="field-icon-circle"><i class="fas fa-balance-scale"></i></span>
+                                <h2 class="field-work">THẨM ĐỊNH GIÁ</h2>
+                            </div>
+                            <div class="field-info">
+                                <p>Thẩm định giá bất động sản là sự ước tính về giá trị của các quyền sở hữu bất động sản 
+                                    cụ thể bằng hình thức tiền tệ cho một mục đích đã được xác định rõ.</p>
+                            </div>
+                        </div>
+                        <div class="e-flex-item">
+                            <div class="field-icon">
+                                <span class="field-icon-circle"><i class="fas fa-poll-h"></i></span>
+                                <h2 class="field-work">THỦ TỤC PHÁP LÝ NHÀ ĐẤT</h2>
+                            </div>
+                            <div class="field-info">
+                                <p>Chuyên tư vấn miễn phí về nhà đất, nhà ở, giấy phép, xây dựng, hoàn công, 
+                                    tranh chấp, lệ phí trước bạ nhà – đất, đáp ứng mọi quy mô bất động sản.</p>
+                            </div>
+                        </div>
+                        <div class="e-flex-item e-flex-item-nomal">
+                            <div class="field-icon">
+                                <span class="field-icon-circle"><i class="fas fa-home"></i></span>
+                                <h2 class="field-work">CHO THUÊ CĂN HỘ</h2>
+                            </div>
+                            <div class="field-info">
+                                <p>Với một quy trình tư vấn chuyên nghiệp, chúng tôi sẽ giúp Quý Khách hàng cho thuê 
+                                    và thuê được bất đông sản đáp ứng mọi nhu cầu nhà ở của Quý Khách hàng một cách nhanh nhất.</p>
+                            </div>
+                        </div>
+                        <div class="e-flex-item e-flex-item-nomal">
+                            <div class="field-icon">
+                                <span class="field-icon-circle"><i class="fas fa-map-signs"></i></span>
+                                <h2 class="field-work">QUẢN LÝ BẤT ĐỘNG SẢN</h2>
+                            </div>
+                            <div class="field-info">
+                                <p>Chúng tôi có một đội ngũ chuyên viên tư vấn chuyên nghiệp, tận tâm và giàu kinh nghiệm 
+                                    sẽ giúp Quý Khách quản lý và giao dịch bất động sản phù hợp với mọi nhu cầu của Khách hàng.</p>
+                            </div>
+                        </div>
+                        <div class="e-flex-item e-flex-item-nomal">
+                            <div class="field-icon">
+                                <span class="field-icon-circle"><i class="fab fa-facebook-f"></i></span>
+                                <h2 class="field-work">QUẢNG CÁO BẤT ĐỘNG SẢN</h2>
+                            </div>
+                            <div class="field-info">
+                                <p>Chúng tôi đã cho ra đời hệ thống cổng thông tin bất động sản một cách chuyên nghiệp 
+                                    với ưu tiên hàng đầu là quảng bá các sản phẩm bất động sản.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news">
+                <div class="grid">
+                    <ul class="content__heading grid__full-width">
+                        <li class="content__heading-top">Người mua hàng thông minh</li>
+                        <li class="content__heading-bottom">Những kiến thức bạn cần nắm rõ khi đầu tư mua bất động sản</li>
+                    </ul>
+                    <div class="e-flex">
+                        <div class="e-flex-item">
+                            <div class="e-flex-item-wrap">
+                                <a href="">
+                                    <div class="e-flex-image">
+                                        <img src="./assets/img/images-1.jpeg" alt="" style="width: 100%;">
+                                    </div>
+                                    <div class="e-flex-content">
+                                        <div class="e-flex-title">
+                                            <h3>7 bí kíp cần biết để bán nhà nhanh chóng với giá cao</h3>
+                                            <span class="day">18/09/2021</span>
+                                            <span>Để việc bán nhà được nhanh chóng với giá cao thì người bán...</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="e-flex-item">
+                            <div class="e-flex-item-wrap">
+                                <a href="">
+                                    <div class="e-flex-image">
+                                        <img src="./assets/img/anh-news-2.jpeg" alt="" style="width: 100%;">
+                                    </div>
+                                    <div class="e-flex-content">
+                                        <div class="e-flex-title">
+                                            <h3>Những điều không nên bỏ qua khi mua nhà cũ</h3>
+                                            <span class="day">18/09/2021</span>
+                                            <span>Sở hữu một căn nhà của mình là ước mơ của nhiều người. Tùy...</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="e-flex-item">
+                            <div class="e-flex-item-wrap">
+                                <a href="">
+                                    <div class="e-flex-image">
+                                        <img src="./assets/img/image-5.jpeg" alt="" style="width: 100%;">
+                                    </div>
+                                    <div class="e-flex-content">
+                                        <div class="e-flex-title">
+                                            <h3>Làm thế nào để vay tiền ngân hàng khi mua nhà?</h3>
+                                            <span class="day">18/09/2021</span>
+                                            <span>Theo các chuyên gia bất động sản thì những cặp gia đình trẻ khi bắt đầu...</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="e-flex-item">
+                            <div class="e-flex-item-wrap">
+                                <a href="">
+                                    <div class="e-flex-image">
+                                        <img src="./assets/img/anh-news-4.jpeg" alt="" style="width: 100%;">
+                                    </div>
+                                    <div class="e-flex-content">
+                                        <div class="e-flex-title">
+                                            <h3>Cách kiểm tra sổ đỏ, sổ hồng đã xóa thế chấp</h3>
+                                            <span class="day">18/09/2021</span>
+                                            <span>Những thay đổi về quyền sử dụng đất, nghĩa vụ nộp thuế,tài sản bị...</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="e-flex-item">
+                            <div class="e-flex-item-wrap">
+                                <a href="">
+                                    <div class="e-flex-image">
+                                        <img src="./assets/img/anh-new-5.jpeg" alt="" style="width: 100%;">
+                                    </div>
+                                    <div class="e-flex-content">
+                                        <div class="e-flex-title">
+                                            <h3>13 câu hỏi cần trả lời trước khi mua nhà</h3>
+                                            <span class="day">18/09/2021</span>
+                                            <span>Mua nhà là một quyết định tài chính quan trọng cần được cân nhắc cẩn thận...</span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="e-flex-item">
+                            <div class="e-flex-item-wrap">
+                                <a href="">
+                                    <div class="e-flex-image">
+                                        <img src="./assets/img/image-2.jpeg" alt="" style="width: 100%;">
+                                    </div>
+                                    <div class="e-flex-content">
+                                        <div class="e-flex-title">
+                                            <h3>Mất bao lâu để mua một ngôi nhà?</h3>
+                                            <span class="day">18/09/2021</span>
+                                            <span>Quá trình mua nhà thường tốn thời gian - mất khoản 3 tháng từ đầu...</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <footer class="footer">
+            <div class="grid">
+                <div class="e-flex">
+                    <div class="e-flex-item e-flex-item-nomal">
+                        <div class="e-flex-image">
+                            <img src="./assets/img/khangthinhland.png" alt="" style="width: 100%;">
+                        </div>
+                        <div class="e-flex-content">
+                            <div class="e-flex-title">
+                                <span><i class="fas fa-phone icon-color"></i>0987 006 706</span>
+                                <span><i class="fas fa-envelope icon-color"></i>lephu.khangthinh@gmail.com</span>
+                                <span><i class="fab fa-chrome icon-color"></i>phuino.github.io/khangthinh</span>
+                                <span><i class="fas fa-heart icon-color"></i>www.zalo.me/0987006706</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="e-flex-item e-flex-item-nomal">
+                        <div class="e-flex-content">
+                            <div class="e-flex-title padding-left">
+                                <h4>Danh mục quan tâm</h4>
+                                <ul>
+                                    <li>Đất nền dự án</li>
+                                    <li>Căn hộ chung cư</li>
+                                    <li>Nhà phố - Biệt thự</li>
+                                    <li>Thiết kế nhà</li>
+                                    <li>Phong thủy</li>
+                                    <li>Tin tức</li>
+                                </ul>
+                                <div class="footer-icon">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="far fa-envelope"></i>
+                                    <i class="fab fa-pinterest"></i>
+                                    <i class="fab fab fa-linkedin"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="e-flex-item e-flex-item-nomal">
+                        <h4>Bản đồ chỉ đường</h4>
+                        <div class="e-flex-image">
+                            <img src="./assets/img/map.jpg" alt="" style="width: 100%;">
+                        </div>
+                        <a class="footer-map-link" href="">Xem trên Google Maps</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+        <!-- modal layout -->
+    <div id="modal">
+        <div id="modal__overlay"></div>
+
+        <div class="modal__body">
+
+            <!-- register form -->
+             <div id="auth-form-register">
+                <div class="auth-form__container">
+
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng ký</h3>
+                        <span id="login-change" class="auth-form__switch-btn">Đăng nhập</span>
+                    </div>
+    
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email của bạn" required>
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn" required>
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu" required>
+                        </div>
+                    </div>
+    
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">Bằng việc đăng kí, bạn đã đồng ý với chúng tôi về
+                            <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a> &
+                            <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+    
+                    <div class="auth-form__controls">
+                        <button id="back" class="btn btn--normal auth-form__controls-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-btn">
+                            <i class="auth-form__socials-icon fab fa-facebook-f"></i>
+                            <span class="auth-form__socials-tittle">Kết nối với Facebook</span>
+                        </a>
+                        <a href="" class="auth-form__socials--google btn btn--size-s btn--with-btn">
+                            <i class="auth-form__socials-icon fab fa-google"></i>
+                            <span class="auth-form__socials-tittle">Kết nối với Google</span>
+                        </a>
+                </div>
+            </div> 
+            <!-- login form -->
+            <div id="auth-form-login">
+                <div class="auth-form__container">
+
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng nhập</h3>
+                        <span id="register-change" class="auth-form__switch-btn">Đăng ký</span>
+                    </div>
+    
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email của bạn" required>
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn" required>
+                        </div>
+                    </div>
+    
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+                            <span class="auth-form__help-separate"></span>
+                            <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                        </div>
+                    </div>
+    
+                    <div class="auth-form__controls">
+                        <button id="back1" class="btn btn--normal auth-form__controls-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-btn">
+                            <i class="auth-form__socials-icon fab fa-facebook-f"></i>
+                            <span class="auth-form__socials-tittle">Kết nối với Facebook</span>
+                        </a>
+                        <a href="" class="auth-form__socials--google btn btn--size-s btn--with-btn">
+                            <i class="auth-form__socials-icon fab fa-google"></i>
+                            <span class="auth-form__socials-tittle">Kết nối với Google</span>
+                        </a>
+                </div>
+            </div>    
+            
+        </div>
+    </div>
+</body>
+
+<script>
+    var modal = document.getElementById('modal');
+    var register = document.getElementById('register');
+    var login = document.getElementById('login');
+    var modalOverlay = document.getElementById('modal__overlay');
+    var authFormRegister = document.getElementById('auth-form-register');
+    var authFormLogin = document.getElementById('auth-form-login');
+    var registerChange = document.getElementById('register-change');
+    var loginChange = document.getElementById('login-change');
+    var back = document.getElementById('back');
+    var back1 = document.getElementById('back1')
+    
+    login.onclick = function() {
+        modal.style.display = 'flex';
+        authFormLogin.style.display = 'block';
+        authFormRegister.style.display = 'none';
+    }
+    
+    register.onclick = function() {
+        modal.style.display = 'flex';
+        authFormLogin.style.display = 'none';
+        authFormRegister.style.display = 'block';
+    }
+    modalOverlay.onclick = function() {
+        modal.style.display = 'none';
+    }
+    registerChange.onclick = function() {
+        authFormLogin.style.display = 'none';
+        authFormRegister.style.display = 'block';
+    }
+    loginChange.onclick = function() {
+        authFormLogin.style.display = 'block';
+        authFormRegister.style.display = 'none';
+    }
+    back.onclick = function() {
+        modal.style.display = 'none';
+    }
+    back1.onclick = function() {
+        modal.style.display = 'none';
+    }
+
+</script>
+
+<script>
+    var  header = document.getElementById('header-jv');
+    var mobileMenu = document.getElementById('mobile-menu');
+    var headerHeight = header.clientHeight;
+
+    mobileMenu.onclick = function() {
+        var  isClosed = header.clientHeight === headerHeight;
+        if (isClosed) {
+            header.style.height = 'auto';
+        } else {
+            header.style.height = null;
+        }
+    }
+</script>
+</html>

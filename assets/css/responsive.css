@@ -1,0 +1,145 @@
+/* tablet */
+@media (min-width: 740px) and (max-width: 1024px) {
+    .header__inner-info {
+        display: none;
+    }
+    .header__inner-logo {
+        justify-content: center;
+    }
+
+    .header__bottom-location:last-child {
+        width: auto;
+    }
+
+    .banner-col-6 {
+        display: none;
+    }
+    .banner-col-4 {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .e-flex {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .e-flex-s {
+        display: none;
+    }
+    .e-flex-item.transform-left:hover::after {
+        display: none;
+    }
+    .field-info p {
+        display: none;
+    }
+    .field-icon-circle {
+        padding-left: 64px;
+    }
+    .e-flex-title.padding-left {
+        padding-left: 0;
+    }
+    
+}
+
+/* mobie */
+@media (max-width: 739px) {
+    .header__navbar-title--no-pointer {
+        display: none;
+    }
+
+    .header__navbar-item--bold, 
+    .header__navbar-item--separate::after {
+        display: none;
+    }
+
+    .header__inner-info {
+        display: none;
+    }
+
+    .header__inner-logo {
+        justify-content: center;
+    }
+
+    .header__bottom-icon {
+        display: block;
+        
+    }
+
+    .header__bottom-form {
+        display: block;
+        position: relative;
+        margin: 0;
+        padding: 0 10px;
+        background-color: rgba(255, 255, 255, 0.9);
+        z-index: 1;
+    }
+    .header__bottom-form-list {
+        width: 200px;
+    }
+
+    .header__button-icon {
+        display: none !important;
+    }
+    .header__mobile-icon {
+        display: inline-block !important;
+    }
+
+    
+
+    .header__bottom-location,
+    .header__bottom-direction,
+    .header__bottom-investor,
+    .header__bottom-product {
+        top: 40px;
+        left: 115px;
+    }
+
+    
+    .banner-img {
+        opacity: unset;
+        height: 215px;
+    }
+
+    .banner-col-6 {
+        display: none;
+    }
+    .banner-col-4 {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: auto;
+    }
+
+    .banner__reg-advice {
+        padding: 0;
+        margin: 0;
+    }
+    .banner__reg-advice-title {
+        margin: 0;
+        padding: 10px;
+        background-color: #eee;
+    }
+    .banner__reg-advice-info{
+        display: none;
+    }
+
+    .content__heading {
+        width: auto;
+    }
+
+    .e-flex {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .e-flex-s {
+        display: none;
+    }
+    .e-flex-item {
+        width: 100%;
+    }
+    .e-flex-item.transform-left:hover::after {
+        display: none;
+    }
+   /* modal */
+  
+}
