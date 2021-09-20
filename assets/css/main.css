@@ -546,7 +546,7 @@
 
 .banner-img {
     height: 430px;
-    background-image: url(/assets/img/biển.png);
+    background-image: url(../img/biển.png);
     background-size: 100%;
     opacity: 0.8;
 }
@@ -669,7 +669,7 @@
 /* ------------ */
 .field {
     background-color: #666;
-    background-image: url(/assets/img/background-linh-vuc.png);
+    background-image: url(../img/background-linh-vuc.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 30px; 
